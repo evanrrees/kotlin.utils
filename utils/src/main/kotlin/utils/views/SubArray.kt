@@ -45,7 +45,6 @@ class SubArray<T>(private val array: Array<T>, private val fromIndex: Int, toInd
         throw NotImplementedError()
     }
 
-
 }
 
 fun <T> Array<T>.subArray(fromIndex: Int, toIndex: Int): SubArray<T> = SubArray(this, fromIndex, toIndex)
