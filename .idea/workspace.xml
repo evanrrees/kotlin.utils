@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ceaf66a-a8e1-4e3a-9403-48062f80b585" name="Changes" comment="" />
+    <list default="true" id="3ceaf66a-a8e1-4e3a-9403-48062f80b585" name="Changes" comment="initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +74,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -89,6 +92,7 @@
     <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="21yEOgjumdj1wAKPRUcXs1nlHaS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -111,6 +115,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="utils.views" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="utils.windows" />
@@ -186,7 +193,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;utils.windows.ViewsKtTest.subArray&quot;" />
+        <option name="scriptParameters" value="--tests &quot;utils.views.ViewsKtTest.subArray&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -226,10 +233,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.ViewsKtTest.subArray" />
+        <item itemvalue="Gradle.ViewsKtTest.subArray" />
         <item itemvalue="Gradle.IndexingExtensionsKtTest" />
         <item itemvalue="Gradle.IndexingExtensionsKtTest.listGetNegative" />
         <item itemvalue="Gradle.NegativeIndexingKtTest.listGetNegative" />
-        <item itemvalue="Gradle.evanrr.utils:utils [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -242,20 +249,106 @@
       <option name="presentableId" value="Default" />
       <updated>1638904898343</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1642284487440</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642284487440</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1642284535149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642284535149</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/utils/src/test/kotlin/utils/windows/ViewsKtTest.kt</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/utils/src/test/kotlin/utils/views/ViewsKtTest.kt</url>
+          <line>27</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/utils/src/test/kotlin/utils/windows/ViewsKtTest.kt</url>
-          <line>16</line>
+          <url>file://$PROJECT_DIR$/utils/src/test/kotlin/utils/views/ViewsKtTest.kt</url>
+          <line>29</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/utils/src/test/kotlin/utils/views/ViewsKtTest.kt</url>
+          <line>16</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/utils/src/test/kotlin/utils/views/ViewsKtTest.kt</url>
+          <line>17</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/utils/src/test/kotlin/utils/views/ViewsKtTest.kt</url>
+          <line>18</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/utils/src/test/kotlin/utils/views/ViewsKtTest.kt</url>
+          <line>19</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/utils/src/test/kotlin/utils/views/ViewsKtTest.kt</url>
+          <line>20</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/utils/src/test/kotlin/utils/views/ViewsKtTest.kt</url>
+          <line>21</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/utils/src/test/kotlin/utils/views/ViewsKtTest.kt</url>
+          <line>22</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
